@@ -1,0 +1,64 @@
+
+.mainView{
+    background-color:#163077;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Varela Round', sans-serif;
+}
+.menuButtons{
+    margin-top: 300px;
+}
+.button{
+    margin: 30px 0px 30px 0px;
+}
+
+#buttonDisplay{
+    font-size: 25px;
+    width: 250px;
+    border-radius:25px;
+}
+
+.menuButtons{
+    margin-top: 0px;
+    position: absolute;
+    top:30%;
+}
+
+.menuFooter{
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.CafeBtn{
+    height: 50vh;
+    background-image: linear-gradient(50deg, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.473)),url('../../Images/mefaneketBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.CafeBtn:hover{
+    background-image: linear-gradient(50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('../../Images/mefaneketBG.jpg');
+}
+
+.BarBtn{
+    height: 50vh;
+    background-image: linear-gradient(50deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.459)),url('../../Images/barBG1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.BarBtn:hover{
+    background-image: linear-gradient(50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('../../Images/barBG1.jpg');
+}
+
+#menuBtn{
+    position: relative;
+    top:45%;
+}
+
+@media (max-width:555px){
+
+    
+    
+}

@@ -1,0 +1,88 @@
+.barBody{
+    /* height: 100vh; */
+    background-image: linear-gradient(50deg, rgba(56, 56, 56, 0.700), rgba(56, 56, 56, 0.700)), url('../barMenu/images/chasers.jpg');
+    background-size: cover;
+    position: fixed;
+    overflow-y: scroll;
+    background-position: center;
+    width:100%;
+    max-height: 100%;
+}
+.mainBarMenu{
+    max-width: 100%;
+    font-family: 'Varela Round', sans-serif;
+    direction: rtl;
+}
+
+hr{
+    background-color: white;
+    /* opacity: 0.3; */
+}
+.dishCard hr{
+    background-color: white;
+    opacity: 0.2;
+}
+.card-header{
+    background-color: rgba(255, 255, 255, 0.082);
+}
+.card-header #barHeaderTitle{
+    font-size: 40px;
+}
+.card-header #barHeaderDescription{
+    font-size: 13px;
+    word-spacing: 2px;
+}
+
+.mainBarMenu .dishCard #barPrice{
+    float: left;
+    font-size: 20px;
+}
+.mainBarMenu .dishCard #barName{
+    text-decoration-line: underline ;
+    font-size: 20px;
+    /* color: rgb(189, 160, 0); */
+}
+.mainBarMenu .dishCard #barDescription{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.mainBarMenu #navBtns{
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+}
+/* .DropButtons{
+    font-size: 13px;
+    margin: 0px 2px 0px 2px;
+} */
+
+@media (max-width:769px){
+
+    .barBody{
+        background-position: 50%; 
+    }
+}
+
+@media (max-width:341px){
+        .card-header #barHeaderTitle{
+            font-size: 31px;
+        }
+        .card-header #barHeaderDescription{
+            font-size: 12px;
+            word-spacing: 2px;
+        }
+        .mainBarMenu .dishCard #barName{
+            text-decoration-line: underline ;
+            font-size: 17px;
+            /* color: rgb(189, 160, 0); */
+        }
+        .mainBarMenu .dishCard #barPrice{
+            float: left;
+            font-size: 17px;
+        }
+        .mainBarMenu .dishCard #barDescription{
+            font-size: 13px;
+            word-spacing: 2px;
+        }
+}

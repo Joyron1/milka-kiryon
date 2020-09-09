@@ -1,0 +1,127 @@
+.footerContainer{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    direction: rtl;
+    position: relative;
+}
+
+.contact{
+    text-align: center;
+}
+
+.location{
+    border-left: 1px solid white;
+}
+
+#phone-footer{
+    display: none;
+}
+
+.footerLinks{
+    color: white;
+}
+.footerLinks p:hover{
+    color: white;
+    text-decoration: underline;
+    }
+
+
+@media screen and (max-width: 768px){
+    #main-footer{
+        display: none;
+    }
+    #phone-footer{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+/* .milkaDevider {
+    margin:64px auto;
+    width:700px; 
+    max-width: 100%;
+    position:relative;
+  }
+  
+  .milkaDeviderMask { 
+      overflow:hidden; 
+      height:20px; 
+  }
+  
+  .milkaDeviderMask:after { 
+        content:''; 
+        display:block; margin:-25px auto 0;
+        width:100%; height:25px;  
+        border-radius:125px / 12px;
+        box-shadow:1px 1px 8px #523899;
+  }
+  .milkaDevider span {
+      width:100px; height:100px; 
+      position:absolute; 
+      bottom:100%; margin-bottom:-50px;
+      left:50%; margin-left:-50px;
+      border-radius:100%;
+  }
+  .milkaDevider img {
+      width:100px;
+      border-radius:100%;
+  } */
+
+/* @media screen and (max-width: 800px){
+    #contact{
+        width: 20px;
+        opacity: 0.2;
+    }
+    #contact:hover{
+        opacity: 1;
+    }
+
+    .Logo{
+        opacity: 0.8;
+        width: 120px;
+        height:70px;
+        border-radius: 100px;
+    }
+    .Logo:hover{
+        opacity: 1;
+        width: 120px;
+        height:70px;
+        border-radius: 100px;
+    }
+
+    .FooterTxt{
+        font-size: 13px;
+        }
+}
+
+@media screen and (max-width: 450px){
+    .details{
+        display: none;
+    }
+    #Footer-nav{
+        font-size:11px;
+    }
+    #contact{
+        width: 20px;
+        opacity: 0.2;
+    }
+    .Logo{
+        opacity: 0.8;
+        width: 120px;
+        height:70px;
+        border-radius: 100px;
+    }
+    .Logo:hover{
+        opacity: 1;
+        width: 120px;
+        height:70px;
+        border-radius: 100px;
+    }
+} */

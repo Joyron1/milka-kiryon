@@ -1,0 +1,28 @@
+
+.Main{
+    justify-content: center;
+    text-align: center;
+    min-height: 100%;
+}
+
+#phone-body{
+    display: none;
+}
+
+
+/* Mobile css */
+@media screen and (max-width: 550px){
+    .Main{
+        min-height: 100%;
+        /* overflow: hidden; */
+        justify-content: center;
+        text-align: center;
+    }
+
+    #main-body{
+        display: none;
+    }
+    #phone-body{
+        display: block;
+    }
+}

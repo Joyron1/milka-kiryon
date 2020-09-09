@@ -1,0 +1,49 @@
+.Main{
+    text-align: center;
+    direction: rtl;
+}
+
+.Image{
+    width: 100%;
+}
+
+#TextArea{
+    justify-content: center;
+    display: flex;
+}
+
+#barMenu{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 70%;
+}
+
+.barMenuNav .nav a{
+    width: 180px;
+    color: black;
+    opacity: 0.4;
+    text-decoration: none;
+}
+.barMenuNav .nav a:hover{
+    color: black;
+    opacity: 1;
+    text-decoration: none;
+}
+
+/* Mobile css */
+@media screen and (max-width: 450px){
+
+    .barMenuNav .nav a{
+        display: none;
+    }
+
+    #barMenu{
+        padding-left: 0px;
+        padding-right: 15px;
+        width: 95%;
+    }
+
+    .Image{
+        height: 260px;
+    }
+}
